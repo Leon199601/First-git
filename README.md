@@ -2,7 +2,7 @@
 
 1、首先在github官网新建个文件夹
 
-2、将云端的文件夹克隆到本地
+2、#将云端的文件夹克隆到本地
 
 ​	git clone https://github.com/Leon199601/First-git.git
 
@@ -16,11 +16,15 @@
 
 ​	git branch -M main
 
+​	#添加github远端	
+
 ​	git remote add origin https://github.com/Leon199601/First-git.git
+
+​	#推送到github的main
 
 ​	git push -u origin main
 
-3、更改文件，eg：更改readme文件
+4、更改文件，eg：更改readme文件
 
 ​	cd
 
@@ -31,3 +35,4 @@
 ​	git commit -m "备注"
 
 ​	git push
+
