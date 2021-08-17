@@ -10,6 +10,8 @@
 
 ​	cd
 
+​	#初始化一个git仓库
+
 ​	git init
 
 ​	git commit -m “备注”
@@ -29,6 +31,8 @@
 ​	cd
 
 ​	git init
+
+​	#添加文件到git仓库
 
 ​	git add *
 
